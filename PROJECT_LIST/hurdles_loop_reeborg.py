@@ -13,11 +13,14 @@ def move_continue():
     three_time_r()
     turn_left()
     turn_left()
-move_continue()
-move_continue()
-move_continue()
-move_continue()
-move_continue()
-move_continue()
+
+for step in range(6):
+    move_continue()
+#move_continue()
+#move_continue()
+#move_continue()
+#move_continue()
+#move_continue()
+#move_continue()
 
 
