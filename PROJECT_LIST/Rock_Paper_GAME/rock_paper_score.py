@@ -57,6 +57,9 @@ def playgame():
         user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
         if user_choice >= 0 and user_choice <= 2:
             print(game_image[user_choice])
+        # else:
+        #     print("Invalid Number🤨.")
+        #     computer_score += 1
 
         computer_choice = random.randint(0, 2)
         print(f"Computer chose {computer_choice}")
@@ -68,7 +71,7 @@ def playgame():
         if should_game_c == "n":
             is_game_over = True
 
-    print(f"User score is {user_score}, computer score : {computer_score}")
+    print(f"User score : {user_score}, Computer score : {computer_score}")
     if user_score > computer_score:
         print("congratulations you Win😎.")
     elif user_score == computer_score:
