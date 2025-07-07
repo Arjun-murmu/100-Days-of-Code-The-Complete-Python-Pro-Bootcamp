@@ -13,3 +13,6 @@ _____ _   _ _____ _____ _____   _____ _   _  _____   _   _ _   ____  _________ _
  \____/\___/\____/\____/\____/    \_/ \_| |_/\____/  \_| \_/\___/\_|  |_/\____/\____/\_| \_|
                                                                                             
                                                                                            """
+
+# https://pythontutor.com/render.html#mode=display
+# https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
