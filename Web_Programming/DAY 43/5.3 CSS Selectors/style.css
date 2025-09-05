@@ -1,0 +1,41 @@
+
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+ }
+
+  /* TODO 1: Set the CSS for all paragraph tags to "color: red" */ 
+p {
+  color:red;
+}
+
+.note{
+  font-size: 20px
+}
+
+#id-selector-demo{
+  color:green
+}
+
+li[value="4"]{
+  color: blue
+}
+
+*{
+  text-align: center
+}
+
+
+
+/* Write your CSS below, don't change the rules above. */
+/* # Used for paticular id. like example of <p id="ma">you</p>
+  . Used for paticular class. like example of <p clasa="ma">you</p>
+    Used for paticular normal. like example of <p>you</p>
+  * this is attribute select all, that mean * say i am alrounder.
+*/
+
+/*
+attribute selector used
+p[na="true"]{}. like example of <p na="true">you</p>
+*/
